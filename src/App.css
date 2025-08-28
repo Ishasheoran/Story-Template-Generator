@@ -1,0 +1,106 @@
+/* General page styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  margin: 0;
+  padding: 0;
+  color: #fff; 
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  margin-top: 30px;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Genre Dropdown Section */
+.genre {
+  margin: 20px auto;
+}
+
+.genre label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.genre select {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+.genre select:hover {
+  transform: scale(1.05);
+}
+
+/* Buttons */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  background-color: #ff9800;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #e68900;
+  transform: scale(1.05);
+}
+
+/* Story Page */
+.story-output {
+  margin: 40px auto;
+  max-width: 800px;
+  background: rgba(0,0,0,0.4);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.3);
+}
+
+.story-output h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.story-section {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.story-section:last-child {
+  border-bottom: none;
+}
+
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;justify-content: space-between;
+}
+#Footer {
+  background: black;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
